@@ -1,0 +1,5 @@
+sed -i 's/bindid = Super, Super_L, Toggle search, global, quickshell:searchToggleRelease/bindid = Super, Super_L, Toggle search, exec, qs -c ii ipc call search toggle/g' ~/.config/hypr/hyprland/keybinds.conf
+
+sed -i 's/bindid = Super, Super_R, Toggle search, global, quickshell:searchToggleRelease/bindid = Super, Super_R, Toggle search, exec, qs -c ii ipc call search toggle/g' ~/.config/hypr/hyprland/keybinds.conf
+
+hyprctl reload
